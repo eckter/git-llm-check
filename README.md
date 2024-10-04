@@ -10,7 +10,7 @@ It `git show` all commits since `origin/HEAD` and pipe that into an LLM with a r
 
 Example on [one of my recent PR on OSRD](https://github.com/OpenRailAssociation/osrd/pull/9177) with an extra print statement:
 
-> $ git review
+`$ git review`
 > 1. **Remove Debug Print Statement**:
 >    ```kotlin
 >    +        println(safetySpeedRanges)
